@@ -3,9 +3,13 @@
   <head>
     <!-- Meta Tags-->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device width, initial-scale=1" />
-    <title>Make a Reservation</title>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Make a Booking</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -20,53 +24,119 @@
 
       gtag("config", "G-HLNP0K58KK");
     </script>
+    <style>
+      body,
+      html {
+        height: 100%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Verdana, sans-serif;
+      }
+
+      .bgimg {
+        background-image: url("./images/banner.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      /* Create a responsive container for the embed resources */
+      .responsive-iframe-container {
+        overflow: hidden;
+        padding-bottom: 75%;
+        padding-top: 50px;
+        position: relative;
+        height: 0;
+      }
+
+      /* Responsive iframe */
+      .responsive-iframe-container iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+    </style>
   </head>
   <body>
-    <!-- Banner -->
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1>The Haukai Restaurant</h1>
+    <!-- Navigation bar sit on top-->
+    <div class="w3-top">
+      <div class="w3-row w3-card w3-blue-gray w3-opacity w3-hover-opacity-off">
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./home.html" class="w3-block w3-button">Home</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./menu.html" class="w3-block w3-button">Menu</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./reservations.html" class="w3-block w3-button">Booking</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./hours.html" class="w3-block w3-button">Hours</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./contact.html" class="w3-block w3-button">Contact</a>
+        </div>
+        <div class="w3-col m2 l1 w3-right">
+          <a
+            href="./private/staff.html"
+            class="w3-block w3-button w3-light-gray"
+            >Staff</a
+          >
+        </div>
       </div>
     </div>
-    <!-- Navigation bar-->
-    <div class="topnav">
-      <a href="./home.html">Home</a>
-      <a href="./menu.html">Menu</a>
-      <a href="./reservations.html">Reservation</a>
-      <a href="./hours.html">Hours</a>
-      <a href="./contact.html">Contact</a>
-      <a href="./private/staff.html">Staff</a>
-    </div>
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container">
+      <div class="w3-display-middle w3-center w3-text-white w3-jumbo">
+        <h1>The Haukai Restaurant</h1>
+      </div>
+    </header>
 
-    <div class="card">
-      <h2>MAKE A RESERVATION</h2>
-      <p>
-        <em
-          >Note: Please use the form below to make a reservation for your
-          dining. Thank you!</em
-        >
-      </p>
-      <div class="responsive-iframe-container">
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLScMXuk8nVDEt3q0B61iJKq1wIdGBofI3g23bSlza0WuhX4gzQ/viewform?embedded=true"
-          width="640"
-          height="1525"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >Loading…</iframe
-        >
+    <!-- Information container-->
+    <div class="w3-padding-large w3-container w3-sand">
+      <div class="w3-content" style="max-width: 700px">
+        <h2 class="w3-tag w3-sand w3-bottombar w3-border-brown w3-padding-16">
+          Make a Booking
+        </h2>
+        <div class="w3-card w3-padding">
+          <p>
+            <em
+              ><i class="fa fa-calendar-check-o"></i> Please use the form below
+              to make a reservation for your dining. Thank you!</em
+            >
+          </p>
+        </div>
+        <br />
+        <div class="responsive-iframe-container">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScMXuk8nVDEt3q0B61iJKq1wIdGBofI3g23bSlza0WuhX4gzQ/viewform?embedded=true"
+            width="640"
+            height="1525"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            >Loading…</iframe
+          >
+        </div>
+        <br />
       </div>
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-      <p>
-        <a href="./aboutus.html">About Us</a>
-        <a href="./privacy.html">Privacy Statement</a>
-      </p>
-      <br />
-      <p>@Copyright 2022 by the Haukai Restaurant. All rights reserved.</p>
-    </div>
+    <footer class="w3-brown">
+      <div class="w3-bar">
+        <a href="./aboutus.html" class="w3-button"
+          ><i class="fa fa-heart"></i> About Us</a
+        >
+        <a href="./privacy.html" class="w3-button"
+          ><i class="fa fa-file"></i> Privacy Statement</a
+        >
+        <p class="w3-center w3-opacity w3-hover-opacity-off">
+          @Copyright 2022 by the Haukai Restaurant. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

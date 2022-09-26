@@ -3,9 +3,13 @@
   <head>
     <!-- Meta Tags-->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Privacy Statement</title>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -20,84 +24,140 @@
 
       gtag("config", "G-HLNP0K58KK");
     </script>
+    <style>
+      body,
+      html {
+        height: 100%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Verdana, sans-serif;
+      }
+
+      .bgimg {
+        background-image: url("./images/banner.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
-    <!-- Banner -->
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1>The Haukai Restaurant</h1>
+    <!-- Navigation bar sit on top-->
+    <div class="w3-top">
+      <div class="w3-row w3-card w3-blue-gray w3-opacity w3-hover-opacity-off">
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./home.html" class="w3-block w3-button">Home</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./menu.html" class="w3-block w3-button">Menu</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./reservations.html" class="w3-block w3-button">Booking</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./hours.html" class="w3-block w3-button">Hours</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./contact.html" class="w3-block w3-button">Contact</a>
+        </div>
+        <div class="w3-col m2 l1 w3-right">
+          <a
+            href="./private/staff.html"
+            class="w3-block w3-button w3-light-gray"
+            >Staff</a
+          >
+        </div>
       </div>
     </div>
-    <!-- Navigation bar-->
-    <div class="topnav">
-      <a href="./home.html">Home</a>
-      <a href="./menu.html">Menu</a>
-      <a href="./reservations.html">Reservation</a>
-      <a href="./hours.html">Hours</a>
-      <a href="./contact.html">Contact</a>
-      <a href="./private/staff.html">Staff</a>
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container">
+      <div class="w3-display-middle w3-center w3-text-white w3-jumbo">
+        <h1>The Haukai Restaurant</h1>
+      </div>
+    </header>
+
+    <!-- Information container-->
+    <div class="w3-padding-large w3-container w3-sand">
+      <div class="w3-content" style="max-width: 700px">
+        <h2 class="w3-tag w3-sand w3-bottombar w3-border-brown w3-padding-16">
+          Privacy Statement
+        </h2>
+        <ul class="w3-ul w3-hoverable">
+          <br />
+          <li>
+            We collect personal information from you, including information
+            about your:
+          </li>
+          <ul>
+            <li>name</li>
+            <li>contact information</li>
+            <li>how you interactions with us.</li>
+          </ul>
+          <br />
+          <li>We collect your personal information in order to:</li>
+          <ul>
+            <li>
+              keep in contact with you and inform you the information about your
+              reservations for dining
+            </li>
+            <li>
+              use it for gathering analytical information about how the website
+              is used to allow us to improve the user experience.
+            </li>
+          </ul>
+          <br />
+          <li>Besides our staff, we may share this information with:</li>
+          <ul>
+            <li>
+              an analytics vender in order to generate analytics data as a part
+              of marketing process for the restaurant.
+            </li>
+          </ul>
+          <br />
+          <li>
+            Providing some information is optional. If you choose not to enter
+            your name and contact information, we'll be unable to contact you or
+            inform you any information about your reservations.
+          </li>
+
+          <li>
+            Also, if you choose not to enable the ability to store cookies in
+            your web browser, we'll be unable to use analytics to improve the
+            overall visitor experience.
+          </li>
+
+          <li>
+            We keep your information safe by storing it in encrypted database
+            and only allowing admin or staff to access it.
+          </li>
+
+          <li>
+            You have the right to ask for a copy of any personal information we
+            hold about you, and to ask for it to be corrected if you think it is
+            wrong. If you'd like to ask for a copy of your information, or to
+            have it corrected, please contact us at
+            <a href="mailto:admin@haukai.co.nz" class="w3-hover-opacity"
+              >admin@haukai.co.nz</a
+            >, or 09 401 4019, or 1 Island Street, Kerikeri, Bay of Islands.
+          </li>
+        </ul>
+        <br />
+      </div>
     </div>
-    <div class="card">
-      <h2>PRIVACY STATEMENT</h2>
-      <p>
-        We collect personal information from you, including information about
-        your:
-      </p>
-      <ul>
-        <li>name</li>
-        <li>contact information</li>
-        <li>how you interactions with us.</li>
-      </ul>
 
-      <p>We collect your personal information in order to:</p>
-      <ul>
-        <li>
-          keep in contact with you and inform you the information about your
-          reservations for dining
-        </li>
-        <li>
-          use it for gathering analytical information about how the website is
-          used to allow us to improve the user experience.
-        </li>
-      </ul>
-
-      <p>Besides our staff, we may share this information with:</p>
-      <ul>
-        <li>
-          an analytics vender in order to generate analytics data as a part of
-          marketing process for the restaurant.
-        </li>
-      </ul>
-
-      <p>
-        Providing some information is optional. If you choose not to enter your
-        name and contact information, we'll be unable to contact you or inform
-        you any information about your reservations. <br /><br />Also, if you
-        choose not to enable the ability to store cookies in your web browser,
-        we'll be unable to use analytics to improve the overall visitor
-        experience.
-      </p>
-      <p>
-        We keep your information safe by storing it in encrypted database and
-        only allowing admin or staff to access it.
-      </p>
-      <p>
-        You have the right to ask for a copy of any personal information we hold
-        about you, and to ask for it to be corrected if you think it is wrong.
-        If you'd like to ask for a copy of your information, or to have it
-        corrected, please contact us at
-        <a href="mailto:admin@haukai.co.nz">admin@haukai.co.nz</a>, or 09 401
-        4019, or 1 Island Street, Kerikeri, Bay of Islands.
-      </p>
-    </div>
     <!-- Footer -->
-    <div class="footer">
-      <p>
-        <a href="./aboutus.html">About Us</a>
-        <a href="./privacy.html">Privacy Statement</a>
-      </p>
-      <br />
-      <p>@Copyright 2022 by the Haukai Restaurant. All rights reserved.</p>
-    </div>
+    <footer class="w3-brown">
+      <div class="w3-bar">
+        <a href="./aboutus.html" class="w3-button"
+          ><i class="fa fa-heart"></i> About Us</a
+        >
+        <a href="./privacy.html" class="w3-button"
+          ><i class="fa fa-file"></i> Privacy Statement</a
+        >
+        <p class="w3-center w3-opacity w3-hover-opacity-off">
+          @Copyright 2022 by the Haukai Restaurant. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

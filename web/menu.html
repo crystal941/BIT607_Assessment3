@@ -3,9 +3,13 @@
   <head>
     <!-- Meta Tags-->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Menu</title>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -20,445 +24,445 @@
 
       gtag("config", "G-HLNP0K58KK");
     </script>
+    <style>
+      body,
+      html {
+        height: 100%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Verdana, sans-serif;
+      }
+
+      .bgimg {
+        background-image: url("./images/banner.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
-    <!-- Banner -->
-    <div class="hero-image">
-      <div class="hero-text">
+    <!-- Navigation bar sit on top-->
+    <div class="w3-top">
+      <div class="w3-row w3-card w3-blue-gray w3-opacity w3-hover-opacity-off">
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./home.html" class="w3-block w3-button">Home</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./menu.html" class="w3-block w3-button">Menu</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./reservations.html" class="w3-block w3-button">Booking</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./hours.html" class="w3-block w3-button">Hours</a>
+        </div>
+        <div class="w3-col m2 l1 w3-center">
+          <a href="./contact.html" class="w3-block w3-button">Contact</a>
+        </div>
+        <div class="w3-col m2 l1 w3-right">
+          <a
+            href="./private/staff.html"
+            class="w3-block w3-button w3-light-gray"
+            >Staff</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container">
+      <div class="w3-display-middle w3-center w3-text-white w3-jumbo">
         <h1>The Haukai Restaurant</h1>
       </div>
-    </div>
-    <!-- Navigation bar-->
-    <div class="topnav">
-      <a href="./home.html">Home</a>
-      <a href="./menu.html">Menu</a>
-      <a href="./reservations.html">Reservation</a>
-      <a href="./hours.html">Hours</a>
-      <a href="./contact.html">Contact</a>
-      <a href="./private/staff.html">Staff</a>
-    </div>
+    </header>
 
-    <div class="card">
-      <h2>MENU</h2>
-      <hr />
-      <h3>APPETIZERS</h3>
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/rewenabread.jpg"
-              alt="Rewena bread"
-            />
-            <div class="menu-item-text">
-              <h4>REWENA BREAD $10.00</h4>
-              <span>Traditional Māori bread.</span>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/pauafritter.jpg"
-              alt="Paua fritter"
-            />
-            <div class="menu-item-text">
-              <h4>PAUA FRITTER $16.00</h4>
-              <span
-                >Finely diced pieces of paua, served with a side salad and
-                horopito dressing.</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Information container-->
+    <div class="w3-padding-large w3-container w3-sand">
+      <div class="w3-content" style="max-width: 700px">
+        <h2 class="w3-tag w3-sand w3-bottombar w3-border-brown w3-padding-16">
+          Menu
+        </h2>
+        <h3>Appetizers</h3>
 
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/rawfish.jpg"
-              alt="Raw fish"
-            />
-            <div class="menu-item-text">
-              <h4>RAW FISH $20.00</h4>
-              <span
-                >Dried snapper fish marinated in coconut cream, served with
-                tomatoes and spring onions.</span
-              >
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/rewenabread.jpg"
+                style="width: 100%"
+                alt="Rewena bread"
+              />
+              <div class="w3-container">
+                <h5>Rewena Bread $10.00</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/poachedsalmon.jpg"
-              alt="Poached salmon"
-            />
-            <div class="menu-item-text">
-              <h4>POACHED SALMON $22.00</h4>
-              <span
-                >Salmon poached in an orange and pistachio glaze, served with
-                rewena bread.</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/seafoodbasket.jpg"
-              alt="Seafood basket"
-            />
-            <div class="menu-item-text">
-              <h4>SEAFOOD BASKET $25.00</h4>
-              <span
-                >Crumbed mussels, salt and pepper squid, crumbed hoki bites and
-                garlic prawns.</span
-              >
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/pauafritter.jpg"
+                style="width: 100%"
+                alt="Paua fritter"
+              />
+              <div class="w3-container">
+                <h5>Paua Fritter $16.00</h5>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <hr />
-      <h3>MAIN</h3>
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/fishoftheday.jpg"
-              alt="Fish of the day"
-            />
-            <div class="menu-item-text">
-              <h4>FISH OF THE DAY $25.00</h4>
-              <span
-                >Beer battered fish and kumara fries, served with a side salad
-                and homemade tartare.</span
-              >
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/musselsandscallops.jpg"
-              alt="Mussels and scallops"
-            />
-            <div class="menu-item-text">
-              <h4>MUSSELS AND SCALLOPS $25.00</h4>
-              <span>
-                Steamed mussel & scallop mousse, honey and soy broth.</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/seafoodchowder.jpg"
-              alt="Seafood chowder"
-            />
-            <div class="menu-item-text">
-              <h4>SEAFOOD CHOWDER $30.00</h4>
-              <span
-                >Creamy chowder filled with terakihi, prawn, hoki, scallops and
-                mussels, served with flatbread.</span
-              >
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/rawfish.jpg"
+                style="width: 100%"
+                alt="Raw fish"
+              />
+              <div class="w3-container">
+                <h5>Raw Fish $20.00</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/porkbelly.jpg"
-              alt="Pork belly"
-            />
-            <div class="menu-item-text">
-              <h4>PORK BELLY $30.00</h4>
-              <span
-                >Slow cooked pork belly served on a bed of apple slaw with
-                roasted kumara, and crispy noodle.</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/lambsteak.jpg"
-              alt="Lamb steak"
-            />
-            <div class="menu-item-text">
-              <h4>LAMB STEAK $33.00</h4>
-              <span
-                >New Zealand Lamb coated in a kawakawa crumb, served with Dijon
-                mustard glazed carrots, roasted butternut squash and a mushroom
-                Jus.</span
-              >
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/poachedsalmon.jpg"
+                style="width: 100%"
+                alt="Poached salmon"
+              />
+              <div class="w3-container">
+                <h5>Poached Salmon $22.00</h5>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/venison.jpg"
-              alt="Venison"
-            />
-            <div class="menu-item-text">
-              <h4>VENISON $33.00</h4>
-              <span
-                >Venison crusted with horopito, served with glazed plums,
-                cabbage salad and red wine Jus.</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <hr />
-      <h3>DESSERT</h3>
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/icecream.jpg"
-              alt="Kapiti ice cream"
-            />
-            <div class="menu-item-text">
-              <h4>KĀPITI ICE CREAM $10.00</h4>
-              <span>Check for daily specials.</span>
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/seafoodbasket.jpg"
+                style="width: 100%"
+                alt="Seafood basket"
+              />
+              <div class="w3-container">
+                <h5>Seafood Basket $25.00</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/steampudding.jpg"
-              alt="Steam pudding"
-            />
-            <div class="menu-item-text">
-              <h4>STEAM PUDDING $12.00</h4>
-              <span
-                >Golden syrup flavoured steam pudding, served with vanilla ice
-                cream.</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
+        <br />
+        <h3>Main</h3>
 
-      <div class="row">
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/minipavlova.jpg"
-              alt="Mini Pavlova"
-            />
-            <div class="menu-item-text">
-              <h4>MINI PAVLOVA $16.00</h4>
-              <span
-                >Mini Pavlova served with kawakawa and lemon infused cream and
-                fresh fruit.</span
-              >
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/porkbelly.jpg"
+                style="width: 100%"
+                alt="Pork belly"
+              />
+              <div class="w3-container">
+                <h5>Pork Belly $30.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/musselsandscallops.jpg"
+                style="width: 100%"
+                alt="Mussels and scallops"
+              />
+              <div class="w3-container">
+                <h5>Mussels and Scallops $25.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/seafoodchowder.jpg"
+                style="width: 100%"
+                alt="Seafood chowder"
+              />
+              <div class="w3-container">
+                <h5>Seafood Chowder $30.00</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="menu-item">
-            <img
-              class="menu-item-image"
-              src="./images/banoffeepie.jpg"
-              alt="Banoffee pie"
-            />
-            <div class="menu-item-text">
-              <h4>BENOFFEE PIE $16.00</h4>
-              <span>Toffee, fresh bananas and fresh cream.</span>
+
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/fishoftheday.jpg"
+                style="width: 100%"
+                alt="Fish of the day"
+              />
+              <div class="w3-container">
+                <h5>Fish of the Day $25.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/lambsteak.jpg"
+                style="width: 100%"
+                alt="Lamb steak"
+              />
+              <div class="w3-container">
+                <h5>Lamb Steak $33.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/venison.jpg"
+                style="width: 100%"
+                alt="Venison"
+              />
+              <div class="w3-container">
+                <h5>Venison $33.00</h5>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <hr />
-      <h3>BEVERAGES</h3>
-      <div class="row">
-        <div class="column">
-          <table name="redwine">
-            <tr>
+
+        <hr />
+        <h3>Dessert</h3>
+
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/icecream.jpg"
+                style="width: 100%"
+                alt="Kapiti ice cream"
+              />
+              <div class="w3-container">
+                <h5>Kāpiti Ice Cream $10.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/steampudding.jpg"
+                style="width: 100%"
+                alt="Steam pudding"
+              />
+              <div class="w3-container">
+                <h5>Steam Pudding $12.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/minipavlova.jpg"
+                style="width: 100%"
+                alt="Mini Pavlova"
+              />
+              <div class="w3-container">
+                <h5>Mini Pavlova $16.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-row-padding w3-margin-top">
+          <div class="w3-third">
+            <div class="w3-card w3-opacity w3-hover-opacity-off">
+              <img
+                src="./images/banoffeepie.jpg"
+                style="width: 100%"
+                alt="Banoffee pie"
+              />
+              <div class="w3-container">
+                <h5>Benoffee Pie $16.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h3>Beverages</h3>
+
+        <table class="w3-table-all w3-hoverable w3-card-4 w3-padding">
+          <thread>
+            <tr class="w3-brown">
               <th>RED</th>
               <th>B/G</th>
             </tr>
-            <tr>
-              <td>Terrace Edge Pinot Noir, 2012, Wairarapa</td>
-              <td>53/13</td>
-            </tr>
-            <tr>
-              <td>Altitude Pinot Noir, 2010, Marlborough</td>
-              <td>64/15</td>
-            </tr>
-            <tr>
-              <td>Greystone Pinot Noir, 2012, Wairarapa</td>
-              <td>73/17</td>
-            </tr>
-            <tr>
-              <td>Terrace Edge, Syrah, 2012, Wairarapa</td>
-              <td>53/13</td>
-            </tr>
-            <tr>
-              <td>Altitude Syrah, 2010, Marlborough</td>
-              <td>64/15</td>
-            </tr>
-            <tr>
-              <td>Greystone Syrah, 2012, Wairarapa</td>
-              <td>73/17</td>
-            </tr>
-            <tr>
-              <td>Pegasus Bay Merlot, 2013, Waipara</td>
-              <td>65/14</td>
-            </tr>
-            <tr>
-              <td>Pegasus Bay Pinot Noir, 2013, Waipara</td>
-              <td>110</td>
-            </tr>
-          </table>
-        </div>
-        <div class="column">
-          <table name="whitewine">
-            <tr>
+          </thread>
+          <tr>
+            <td>Terrace Edge Pinot Noir, 2012, Wairarapa</td>
+            <td>53/13</td>
+          </tr>
+          <tr>
+            <td>Altitude Pinot Noir, 2010, Marlborough</td>
+            <td>64/15</td>
+          </tr>
+          <tr>
+            <td>Greystone Pinot Noir, 2012, Wairarapa</td>
+            <td>73/17</td>
+          </tr>
+          <tr>
+            <td>Terrace Edge, Syrah, 2012, Wairarapa</td>
+            <td>53/13</td>
+          </tr>
+          <tr>
+            <td>Altitude Syrah, 2010, Marlborough</td>
+            <td>64/15</td>
+          </tr>
+          <tr>
+            <td>Greystone Syrah, 2012, Wairarapa</td>
+            <td>73/17</td>
+          </tr>
+          <tr>
+            <td>Pegasus Bay Merlot, 2013, Waipara</td>
+            <td>65/14</td>
+          </tr>
+          <tr>
+            <td>Pegasus Bay Pinot Noir, 2013, Waipara</td>
+            <td>110</td>
+          </tr>
+        </table>
+
+        <br />
+        <table class="w3-table-all w3-hoverable w3-card-4 w3-padding">
+          <thread>
+            <tr class="w3-brown">
               <th>WHITE</th>
               <th>B/G</th>
             </tr>
-            <tr>
-              <td>Spade Oak Pinot Gris, 2011, Gisborne</td>
-              <td>40/10</td>
+          </thread>
+          <tr>
+            <td>Spade Oak Pinot Gris, 2011, Gisborne</td>
+            <td>40/10</td>
+          </tr>
+          <tr>
+            <td>Maude Pinot Gris, 2017, Otago</td>
+            <td>49.50/11</td>
+          </tr>
+          <tr>
+            <td>Charles Wiffen Chardonnay, 2013, Otago</td>
+            <td>48/11</td>
+          </tr>
+          <tr>
+            <td>Amisfield, Riesling, 2016, Otago</td>
+            <td>53/12</td>
+          </tr>
+          <tr>
+            <td>Lamont Riesling, 2010, Otago</td>
+            <td>57/13</td>
+          </tr>
+          <tr>
+            <td>Elephant Hill Viognier, 2013, Hawkes Bay</td>
+            <td>55/12</td>
+          </tr>
+          <tr>
+            <td>Folium Sauvignon Blanc, 2011, Marlborough</td>
+            <td>52/11</td>
+          </tr>
+          <tr>
+            <td>Billecart-Salmon Brut Reserve, Fance</td>
+            <td>120</td>
+          </tr>
+        </table>
+        <br />
+        <table class="w3-table-all w3-hoverable w3-card-4 w3-padding">
+          <thread>
+            <tr class="w3-brown">
+              <th>BEER AND CIDER</th>
+              <th>$</th>
             </tr>
-            <tr>
-              <td>Maude Pinot Gris, 2017, Otago</td>
-              <td>49.50/11</td>
+          </thread>
+          <tr>
+            <td>Garage Project Range</td>
+            <td>11.00</td>
+          </tr>
+          <tr>
+            <td>Tuatara Range</td>
+            <td>11.00</td>
+          </tr>
+          <tr>
+            <td>Panhead Range</td>
+            <td>10.00</td>
+          </tr>
+          <tr>
+            <td>Coopers Ale</td>
+            <td>10.00</td>
+          </tr>
+          <tr>
+            <td>Heineken</td>
+            <td>11.00</td>
+          </tr>
+          <tr>
+            <td>Moa Cider</td>
+            <td>10.00</td>
+          </tr>
+          <tr>
+            <td>Crooked Cider</td>
+            <td>10.00</td>
+          </tr>
+        </table>
+        <br />
+        <table class="w3-table-all w3-hoverable w3-card-4 w3-padding">
+          <thread>
+            <tr class="w3-brown">
+              <th>NON-ALCOHOLIC</th>
+              <th>$</th>
             </tr>
-            <tr>
-              <td>Charles Wiffen Chardonnay, 2013, Otago</td>
-              <td>48/11</td>
-            </tr>
-            <tr>
-              <td>Amisfield, Riesling, 2016, Otago</td>
-              <td>53/12</td>
-            </tr>
-            <tr>
-              <td>Lamont Riesling, 2010, Otago</td>
-              <td>57/13</td>
-            </tr>
-            <tr>
-              <td>Elephant Hill Viognier, 2013, Hawkes Bay</td>
-              <td>55/12</td>
-            </tr>
-            <tr>
-              <td>Folium Sauvignon Blanc, 2011, Marlborough</td>
-              <td>52/11</td>
-            </tr>
-            <tr>
-              <td>Billecart-Salmon Brut Reserve, Fance</td>
-              <td>120</td>
-            </tr>
-          </table>
-        </div>
-        <div class="row">
-          <div class="column">
-            <table name="beerandcider">
-              <tr>
-                <th>BEER AND CIDER</th>
-                <th>$</th>
-              </tr>
-              <tr>
-                <td>Garage project range</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>Tuatara range</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>Panhead range</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Coopers Ale</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Heineken</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>Moa Cider</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Crooked Cider</td>
-                <td>10</td>
-              </tr>
-            </table>
-          </div>
-          <div class="column">
-            <table name="nonalcoholic">
-              <tr>
-                <th>NON-ALCOHOLIC</th>
-                <th>$</th>
-              </tr>
-              <tr>
-                <td>Mineral water</td>
-                <td>4.00</td>
-              </tr>
-              <tr>
-                <td>Soft drinks</td>
-                <td>4.00</td>
-              </tr>
-              <tr>
-                <td>Juice</td>
-                <td>4.00</td>
-              </tr>
-              <tr>
-                <td>Coffee</td>
-                <td>4.50</td>
-              </tr>
-              <tr>
-                <td>Tea</td>
-                <td>3.50</td>
-              </tr>
-            </table>
-          </div>
-        </div>
+          </thread>
+          <tr>
+            <td>Mineral Water</td>
+            <td>4.00</td>
+          </tr>
+          <tr>
+            <td>Soft Drinks</td>
+            <td>4.00</td>
+          </tr>
+          <tr>
+            <td>Juice</td>
+            <td>4.00</td>
+          </tr>
+          <tr>
+            <td>Coffee</td>
+            <td>4.50</td>
+          </tr>
+          <tr>
+            <td>Tea</td>
+            <td>3.50</td>
+          </tr>
+        </table>
+        <br />
       </div>
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-      <p>
-        <a href="./aboutus.html">About Us</a>
-        <a href="./privacy.html">Privacy Statement</a>
-      </p>
-      <br />
-      <p>@Copyright 2022 by the Haukai Restaurant. All rights reserved.</p>
-    </div>
+    <footer class="w3-brown">
+      <div class="w3-bar">
+        <a href="./aboutus.html" class="w3-button"
+          ><i class="fa fa-heart"></i> About Us</a
+        >
+        <a href="./privacy.html" class="w3-button"
+          ><i class="fa fa-file"></i> Privacy Statement</a
+        >
+        <p class="w3-center w3-opacity w3-hover-opacity-off">
+          @Copyright 2022 by the Haukai Restaurant. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
